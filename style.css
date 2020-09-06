@@ -1,0 +1,148 @@
+.header {
+    display: flex;
+    background-color: seashell;
+
+}
+
+.header-logo {
+    flex-basis: 50%;
+    color: rgb(255, 71, 209);
+    font-size: 25px;
+    font-style: italic;
+}
+
+.header-menu {
+    flex-basis: 50%;
+    font-size: 25px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.banner {
+    text-align: center;
+    display: flex;
+    margin: center;
+    background-color: #f4f4f4;
+    width: 1400px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.banner-content p {
+    font-size: 25px;
+
+    margin-bottom: 20px;
+    font-style: italic;
+    color:black;
+    margin-right: 20px;
+
+}
+
+.banner-content h2 {
+    color: crimson;
+    font-size: 40px;
+}
+
+.banner-content button {
+    font-size: 30px;
+}
+
+.banner-img img {
+    /* max-width: 100%; */
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner-img {
+    flex-basis: 50%;
+    padding-left: 50px;
+    padding-right: 50;
+}
+
+.banner-content {
+    flex-basis: 50%;
+    padding: 100px 20px 50px 10px;
+}
+.list-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    margin-left: 40px;
+}
+
+.card-img img {
+    max-width: 100%;
+}
+
+.card {
+    text-align: center;
+}
+
+.card-info h2 {
+    color: indianred;
+    font-style: italic;
+}
+.banner{
+    margin-bottom: 200px;
+}
+.header{
+    margin-bottom: 150px;
+}
+
+
+.prtitle h2{ 
+    color: blue;
+    text-align: center;
+    font-size: 35px;
+
+}
+.prdetail p{
+    color: rgb(73, 17, 17);
+    text-align: center;
+    font-size: 35px;
+}
+.header-menu a{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+.menu-active{
+    padding: 5px;
+    background-color: blueviolet;
+    border-radius:20% ;
+}
+
+
+.cen p{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+
+}
+.imgpr{
+    text-align: center;
+    margin: 20px 150px 20px 150px;
+}
+
+.cent {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;}
+    .redi{
+        margin-left: 500px;
+    }
+    .com {
+        text-align: center;
+        padding: 20px;
+        font-size: 25px;}
+        .redii{
+            margin-left: 800px;
+        }
